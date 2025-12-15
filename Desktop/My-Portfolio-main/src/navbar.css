@@ -1,0 +1,23 @@
+
+
+.gsap {
+  position: relative;
+  overflow-y: hidden;
+  /* font-size: 24px; */
+  /* width: 100%; */
+  cursor: pointer;
+  height: 34px;
+}
+
+.text {
+  display: block;
+  width: 100%;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  top: 0%
+}

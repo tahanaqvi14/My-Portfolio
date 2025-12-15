@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(135deg, #0d0d0b, #0f0a06);
+
+  /* background-color: #022291; */
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background for the track */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555; /* Thumb color */
+    border-radius: 10px;
+    border: 2px solid #1e1e1e; /* Border blends with track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1e1e1e;
+  }
+
+
+  .neechay-wala-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+  pointer-events: auto;
+}
+@media (min-width:440px) {
+  .neechay-wala-button{
+    margin-bottom: 2.5rem;
+  }
+  
+}
