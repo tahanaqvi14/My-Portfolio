@@ -631,9 +631,9 @@ const Lastpage = () => {
                     <div className="card-container bg-[#111111] min-w-full p-6 rounded-xl shadow-md max-w-md w-full space-y-5">
                       <div id="taskflow-main">
                         <div>
-                          <h1 id="taskflowtitle">CryptoTracker</h1>
+                          <h1 id="taskflowtitle">DocMind AI</h1>
                           <p className="subheading mb-1">
-                            Your Global Crypto Companion - Prices, Legality & Travel Planner
+                            Chat With Your Documents — Grounded Answers, Verified Citations
                           </p>
                         </div>
 
@@ -664,18 +664,18 @@ const Lastpage = () => {
                       <div>
                         <h2 id="about" className="mb-1">About This Project</h2>
                         <p id="aboutinfo">
-                          CryptoTracker is a comprehensive cryptocurrency platform that combines real-time market data with global legality insights and travel budgeting tools. It integrates multiple APIs and databases to deliver a 3-in-1 solution for crypto enthusiasts: live price tracking, worldwide regulatory mapping, and a crypto-powered travel calculator.
+                          DocMind AI is a full-stack, multi-tenant RAG (Retrieval-Augmented Generation) SaaS platform where users upload their own documents and get an instant AI chatbot that answers questions grounded strictly in that content. It combines vector search, streaming LLM inference, and real database-level security to deliver a 3-in-1 experience: document intelligence, verifiable citations, and test-mode subscription billing.
                         </p>
                       </div>
 
                       <div>
                         <h2 className="font-semibold text-white mb-1">Key Features</h2>
                         <div id="key">
-                          <span className="bg-[#0D1633] text-[#93C2F7] px-2 py-1 rounded-full">Real-Time Cryptocurrency Price</span>
-                          <span className="bg-[#041A14] text-green-300 px-2 py-1 rounded-full">Interactive Global Crypto Legality Heatmap</span>
-                          <span className="bg-[#1F073B] text-purple-300 px-2 py-1 rounded-full">Country-Specific Crypto Regulation Database</span>
-                          <span className="bg-[#230D0D] text-orange-300 px-2 py-1 rounded-full">Light / dark mode</span>
-                          <span className="bg-[#29071B] text-pink-300 px-2 py-1 rounded-full">Dynamic Destination Recommendations Engine</span>
+                          <span className="bg-[#0D1633] text-[#93C2F7] px-2 py-1 rounded-full">Grounded RAG Chat with Verifiable Citations Price</span>
+                          <span className="bg-[#041A14] text-green-300 px-2 py-1 rounded-full">Multi-Tenant Document Workspace with Row-Level Security</span>
+                          <span className="bg-[#1F073B] text-purple-300 px-2 py-1 rounded-full">Real-Time Streaming AI Responses</span>
+                          <span className="bg-[#230D0D] text-orange-300 px-2 py-1 rounded-full">Drag-and-Drop Upload with Live Processing Status</span>
+                          <span className="bg-[#29071B] text-pink-300 px-2 py-1 rounded-full">Usage Analytics Dashboard</span>
                         </div>
                       </div>
 
@@ -684,22 +684,22 @@ const Lastpage = () => {
                         <div id="tech">
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
                             <img src={react} alt="React" className="w-4 h-4" />
-                            <p>React</p>
+                            <p>Next.js</p>
                           </span>
 
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
                             <img src={node} alt="Node.js" className="w-4 h-4" />
-                            <p>Node.js</p>
+                            <p>TypeScript</p>
                           </span>
 
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
                             <img src={tailwind} alt="Tailwind" className="w-4 h-4" />
-                            <p>Tailwind</p>
+                            <p>Supabase</p>
                           </span>
 
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
                             <img src={mongo} alt="MongoDB" className="w-4 h-4" />
-                            <p>MongoDB</p>
+                            <p>Gemini</p>
                           </span>
                         </div>
                       </div>
