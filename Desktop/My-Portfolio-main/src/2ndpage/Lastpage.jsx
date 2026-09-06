@@ -683,23 +683,23 @@ const Lastpage = () => {
                         <h2 className="font-semibold text-white mb-1">Technology Stack</h2>
                         <div id="tech">
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
-                            <img src={react} alt="React" className="w-4 h-4" />
+                            <img src={next} alt="React" className="w-4 h-4" />
                             <p>Next.js</p>
                           </span>
 
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
-                            <img src={node} alt="Node.js" className="w-4 h-4" />
+                            <img src={typescript} alt="Node.js" className="w-4 h-4" />
                             <p>TypeScript</p>
                           </span>
 
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
-                            <img src={tailwind} alt="Tailwind" className="w-4 h-4" />
+                            <img src={supabase} alt="Tailwind" className="w-4 h-4" />
                             <p>Supabase</p>
                           </span>
 
                           <span className="inline-flex items-center gap-2 px-2 py-1 text-white border border-neutral-400 rounded-md">
-                            <img src={mongo} alt="MongoDB" className="w-4 h-4" />
-                            <p>Gemini</p>
+                            <img src={groq} alt="MongoDB" className="w-4 h-4" />
+                            <p>Groq</p>
                           </span>
                         </div>
                       </div>
