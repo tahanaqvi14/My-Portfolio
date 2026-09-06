@@ -647,7 +647,7 @@ const Lastpage = () => {
 
                         <div className="flex gap-2 self-start">
                           <a
-                            href="https://github.com/tahanaqvi14/cryptotracker"
+                            href="https://github.com/tahanaqvi14/DocMind-AI"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 text-sm flex items-center gap-2 justify-between bg-gray-200 rounded-md text-black font-medium transition-all duration-200 hover:bg-gray-300 active:scale-95" id='submit-button1'
@@ -657,7 +657,7 @@ const Lastpage = () => {
                           </a>
 
                           <a
-                            href="https://github.com/tahanaqvi14/cryptotracker"
+                            href="https://docmindai-mauve.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 text-sm flex items-center  justify-between gap-2 bg-blue-600 text-white rounded-md font-medium transition-all duration-200 hover:bg-blue-700 active:scale-95" id='submit-button1'
