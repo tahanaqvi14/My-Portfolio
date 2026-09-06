@@ -19,6 +19,14 @@ import linkedinIcon from './linkedin.svg';
 import githubIcon from './github.svg';
 import hackerrankIcon from './hackerrank.svg';
 
+
+import groq from './icons/groq.svg'
+import next from './icons/next.svg'
+import typescript from './icons/typescript.svg'
+import supabase from './icons/supabase.svg'
+
+
+
 import html from './icons/html.svg'
 import javaS from "./icons/js.svg";
 import tailwind from "./icons/tailwind.svg";
