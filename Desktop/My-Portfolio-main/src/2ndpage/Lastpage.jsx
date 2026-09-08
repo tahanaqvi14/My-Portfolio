@@ -829,16 +829,16 @@ const Lastpage = () => {
                     <div className="card-container bg-[#111111] min-w-full p-6 rounded-xl shadow-md max-w-md w-full space-y-5">
                       <div id="taskflow-main">
                         <div>
-                          <h1 id="taskflowtitle">LexiMind AI</h1>
+                          <h1 id="taskflowtitle">Anchor</h1>
                           <p className="subheading mb-1">
-                            AI-Powered Vocabulary Builder
+                            AI Negotiation Simulator
                           </p>
                         </div>
 
                         <div className="flex gap-2 self-start">
 
                           <a
-                            href="https://github.com/tahanaqvi14/Personal-AI-powered-Vocabulary-trainer"
+                            href="https://github.com/tahanaqvi14/anchor"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 text-sm flex items-center gap-2 justify-between bg-gray-200 rounded-md text-black font-medium transition-all duration-200 hover:bg-gray-300 active:scale-95" id='submit-button1'
@@ -848,7 +848,7 @@ const Lastpage = () => {
                           </a>
 
                           <a
-                            href="https://ai-vocab-builder-frontend.onrender.com/"
+                            href="https://anchor-chi-ten.vercel.app/demo"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 text-sm flex items-center  justify-between gap-2 bg-blue-600 text-white rounded-md font-medium transition-all duration-200 hover:bg-blue-700 active:scale-95" id='submit-button1'
@@ -858,24 +858,24 @@ const Lastpage = () => {
                           </a>
                         </div>
                       </div>
-                      <p id="calender">📅 Nov 2025</p>
+                      <p id="calender">📅 Sep 2026</p>
                       <div>
                         <h2 id="about" className="mb-1">About This Project</h2>
                         <p id="aboutinfo">
-                        AI-Powered Vocabulary Builder is a full-stack web application that helps users systematically build and test their English vocabulary. Users can log in, review stored words, and take AI-evaluated quizzes, while admins can curate the word list by adding new vocabulary with meanings and example sentences. The system uses Google’s Gemini model to evaluate user answers, giving smart feedback instead of simple right/wrong checks.
+                        Anchor is a full-stack web application for rehearsing high-stakes negotiations — a salary, a freelance rate, a vendor renewal — against an AI opponent that genuinely pushes back. Users pick a scenario, choose one of four opponents with distinct tactics, and negotiate by text or voice. Language models concede too easily by default, so the opponent’s position is clamped in application code against a hidden limit it is never told: it proposes a number, and the ledger decides whether it is allowed. When the session ends, Google’s Gemini writes a feedback report that quotes the user’s own messages back to them, with every citation verified against the transcript before it is shown.
                         </p>
                       </div>
 
                       <div>
                         <h2 className="font-semibold text-white mb-1">Key Features</h2>
                         <div id="key">
-                          <span className="bg-[#0D1633] text-[#93C2F7] px-2 py-1 rounded-full">AI-powered quiz
+                          <span className="bg-[#0D1633] text-[#93C2F7] px-2 py-1 rounded-full">AI opponents that push back
                           </span>
-                          <span className="bg-[#041A14] text-green-300 px-2 py-1 rounded-full">User authentication & roles</span>
-                          <span className="bg-[#1F073B] text-purple-300 px-2 py-1 rounded-full">Word review (All users)</span>
-                          <span className="bg-[#230D0D] text-orange-300 px-2 py-1 rounded-full">Word management (Admin)
+                          <span className="bg-[#041A14] text-green-300 px-2 py-1 rounded-full">Four distinct personas</span>
+                          <span className="bg-[#1F073B] text-purple-300 px-2 py-1 rounded-full">Cited feedback reports</span>
+                          <span className="bg-[#230D0D] text-orange-300 px-2 py-1 rounded-full">Voice input &amp; output
                           </span>
-                          <span className="bg-[#29071B] text-pink-300 px-2 py-1 rounded-full">Interactive dashboard</span>
+                          <span className="bg-[#29071B] text-pink-300 px-2 py-1 rounded-full">Progress dashboard</span>
                         </div>
                       </div>
                       <div>
