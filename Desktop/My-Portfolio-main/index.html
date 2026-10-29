@@ -1,35 +1,59 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Taha Naqvi — Software Engineer</title>
+    <meta
+      name="description"
+      content="Taha Naqvi is a full-stack software engineer from Karachi, Pakistan, building reliable systems, AI-powered products and pixel-perfect web experiences."
+    />
+    <meta name="theme-color" content="#05060a" />
+    <meta name="color-scheme" content="dark" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/nazi.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taha Naqvi</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Taha Naqvi — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Full-stack software engineer crafting reliable systems and pixel-perfect experiences."
+    />
+    <meta name="twitter:card" content="summary" />
 
-  <!-- Geist font (optional) -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
-  </style>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-  <!-- Panchang font preload + load -->
-  <link rel="preload" href="https://api.fontshare.com/css?f[]=panchang@700" as="style"
-    onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="https://api.fontshare.com/css?f[]=panchang@700" />
-  </noscript>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Loaded without blocking the scripts: the loader covers the page until fonts are in. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Fraunces:ital,opsz,wght@1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Fraunces:ital,opsz,wght@1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      />
+    </noscript>
+    <style>
+      html,
+      body {
+        background: #05060a;
+      }
+    </style>
+  </head>
 
-<body>
-  <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <textarea name="message"></textarea>
-  </form>
-
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
-
+  <body>
+    <noscript>
+      <p style="padding: 2rem; font-family: system-ui, sans-serif; color: #eef1f7; background: #05060a">
+        This portfolio needs JavaScript to run. Find Taha on
+        <a href="https://github.com/tahanaqvi14" style="color: #ff6a2a">GitHub</a> or
+        <a href="https://www.linkedin.com/in/syedtahaalinaqvi" style="color: #ff6a2a">LinkedIn</a>.
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
